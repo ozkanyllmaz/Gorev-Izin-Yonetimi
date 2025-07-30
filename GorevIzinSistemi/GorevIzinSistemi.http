@@ -1,0 +1,6 @@
+@GorevIzinSistemi_HostAddress = http://localhost:5194
+
+GET {{GorevIzinSistemi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

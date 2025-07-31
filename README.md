@@ -63,6 +63,12 @@ GorevIzinSistemi/
    cd GorevIzinSistemi
  ```
 
+### 2. Backend Bağımlılıkları 
+Proje kök dizininde aşağıdaki komutu çalıştırın:
+```bash
+    dotnet restore
+```
+
 
 ### 2. React Kurulumu ve Derlenmesi
 
@@ -70,8 +76,6 @@ GorevIzinSistemi/
 # Root dizine gel
 cd GorevIzinSistemi
 
-# React uygulamasını oluştur
-npx create-react-app client-app
 
 # Gerekli kütüphaneleri yükle
 cd client-app
@@ -105,7 +109,7 @@ npx tailwindcss init -p
   "SmtpServer": "smtp.gmail.com",
   "SmtpPort": 587,
   "SenderEmail": "gorevizinyonetimi@gmail.com",
-  "SenderPassword": "..."
+  "SenderPassword": "UYGULAMA_SIFRENIZ"
 }
 ```
 
@@ -118,6 +122,7 @@ npx tailwindcss init -p
 > gibi bir seçim yaparak yeni bir uygulama şifresi oluşturabilirsiniz.
 >
 > Bu yöntem sayesinde, asıl Gmail şifrenizi paylaşmadan güvenli bir şekilde **SMTP** üzerinden mail gönderebilirsiniz.
+> Gönderici mailini istediğiniz gibi değiştirebilirsiniz.
 
 
 ## 6. 🧩 Migration ve Veritabanı Güncellemeleri

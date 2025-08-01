@@ -134,7 +134,7 @@ Veritabanını güncellemelisiniz :
 dotnet ef database update
 ```
 
-> **Not:** Proje, veritabanı şemasını tanımlayan migration dosyalarını içermektedir ve bu dosyalar Migrations/ klasöründe yer almaktadır. Bu nedenle dotnet ef migrations add komutunu çalıştırmanıza gerek yoktur. Yukarıdaki komut, veritabanını mevcut migration'lara uygun şekilde oluşturacak ve seed.sql dosyasındaki başlangıç verilerini otomatik olarak uygulayacaktır.
+> **Not:** Proje, veritabanı şemasını tanımlayan migration dosyalarını içermektedir ve bu dosyalar Migrations/ klasöründe yer almaktadır. Bu nedenle dotnet ef migrations add komutunu çalıştırmanıza gerek yoktur. Yukarıdaki komut, veritabanını mevcut migration'lara uygun şekilde oluşturacak ve seed.sql dosyasındaki başlangıç verilerini otomatik olarak uygulayacaktır. Seed.sql dosyasındaki verileri siz tekrar güncelleyebilirsiniz. Tüm kullanıcıların şifreleri '123456' dır.
 
 > Not: `Microsoft.EntityFrameworkCore.Tools` paketi proje dosyasına eklenmiş olmalıdır.
 

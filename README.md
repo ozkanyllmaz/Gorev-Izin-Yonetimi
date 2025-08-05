@@ -254,6 +254,17 @@ Proje çalışırken http://localhost:5194/swagger adresinden API endpoint’ler
 </table>
 
 
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/1188e738-6ebc-451c-84cc-44e98622158a" width="500" /></td>
+    <td><img src="https://github.com/user-attachments/assets/3296f163-18db-40f0-963f-eb7d3d77b4e8" width="500" /></td>
+    <td><img src="https://github.com/user-attachments/assets/36e369d5-c56e-4278-aec5-3e5daabec57f"  width="500" /></td>
+  </tr>
+</table>
+
+
+
+
 
 
 
